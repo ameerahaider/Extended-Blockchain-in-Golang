@@ -46,12 +46,15 @@ type Transaction struct {
     recipientBlockchainAddress string
     value                      float32
 }
+```
+
 ### `Blockchain`
 ```go
 type Blockchain struct {
     chain           []*Block
     transactionPool []*Transaction
 }
+```
 
 ## Repository Setup
 1. Clone this repository:
